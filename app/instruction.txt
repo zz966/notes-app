@@ -1,0 +1,22 @@
+1.register progress
+    render register page
+    get form's data, generate Authentication token,save token in database ,return token to client
+    redirect to login page 
+
+2.login progress
+    render login page
+    user input email and password 
+    search email in database 
+    if no user, return 404
+    if user is founded, bcrypt.compare inputed password with password in database 
+    if not match, throw error
+    if verified successfully, find all article, then render index 
+
+3.get user profile
+    client send token in header to server
+    server get token from header, jwt verify token
+    use decoded id to find user 
+    if user not find throw error
+    if user is founded return user data 
+
+4.注册和登录的时候都会生成token

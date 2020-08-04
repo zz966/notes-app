@@ -1,0 +1,9 @@
+extends layout
+block content
+    h1=article.title
+    h2 #{article.author}
+    h2 #{article.timeStamp}
+    p=article.content
+    hr
+    a.btn.btn-primary(href='/article/edit/'+article._id) Edit
+    a.btn.btn-danger.delete-article(href='#',data-id=article._id) Delete
