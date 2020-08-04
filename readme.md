@@ -1,7 +1,7 @@
 
 **Online notes App**  
 This is a simple online notes app, you can registed an account and login.  
-write the notes. (uncompleted project)  
+write the notes. **(uncompleted project)**  
 
 
 node.js + express.js + pug(view engine) + MongoDB + bootstrap  
