@@ -17,9 +17,9 @@ The screenshot of preject:
 ![image](screenshot/database.png)
 ![image](screenshot/linkToDatabase.png)
 
-Todo:  
+**Todo:**  
 allow user to add image.  
 registed with google account.   
   
-**How to start the programe.**
+**How to start the programe.**  
 nodemon app.js  
